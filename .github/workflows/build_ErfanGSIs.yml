@@ -14,7 +14,7 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://firmware.meizu.com/Firmware/Flyme/15_Plus/8.0.5.0/cn/20200901173134/bc87a343/update.zip
+  ROM_URL: https://www.flyme.com/firmwarelist-171.html#
   ROM_NAME: Generic
   TZ: Asia/Shanghai
 
