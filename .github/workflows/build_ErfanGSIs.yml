@@ -15,7 +15,7 @@ on:
     
 env:
   ROM_URL: https://www.flyme.com/firmwarelist-171.html#
-  ROM_NAME: Generic
+  ROM_NAME: Flyme
   TZ: Asia/Shanghai
 
 jobs:
@@ -58,7 +58,7 @@ jobs:
               mkdir final
               zip -r final/GSI.zip /home/runner/work/actions_build_ErfanGSIs/actions_build_ErfanGSIs/ErfanGSIs/output/
        
-       - name: Upload GSI to BitSend
+       - name: Upload GSI to GofSend
          run: |
               curl -sL https://git.io/file-transfer | sh
               ./transfer gof final/GSI.zip
