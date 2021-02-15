@@ -14,7 +14,7 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://www.flyme.com/firmwarelist-171.html#
+  ROM_URL: https://firmware.meizu.com/Firmware/Flyme/M15/8.0.5.0/cn/20200826030520/f42246d1/update.zip
   ROM_NAME: Flyme
   TZ: Asia/Shanghai
 
@@ -58,10 +58,10 @@ jobs:
               mkdir final
               zip -r final/GSI.zip /home/runner/work/actions_build_ErfanGSIs/actions_build_ErfanGSIs/ErfanGSIs/output/
        
-       - name: Upload GSI to GofSend
+       - name: Upload GSI to BitSend
          run: |
               curl -sL https://git.io/file-transfer | sh
-              ./transfer gof final/GSI.zip
+              ./transfer bit final/GSI.zip
 
          
             
