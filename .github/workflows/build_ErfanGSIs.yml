@@ -14,8 +14,8 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://bigota.d.miui.com/V12.0.3.0.QFGCNXM/miui_LAVENDER_V12.0.3.0.QFGCNXM_fe51c5198b_10.0.zip
-  ROM_NAME: MIUI
+  ROM_URL: https://download.h2os.com/OnePlus7/MP/OnePlus7Hydrogen_14.H.37_OTA_0370_all_2105181017_4d17f37335414c98.zip
+  ROM_NAME: Hydrogen
   TZ: Asia/Shanghai
 
 jobs:
