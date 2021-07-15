@@ -14,8 +14,8 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://firmware.meizu.com/Firmware/Flyme/M15/8.0.5.0/cn/20200826030520/f42246d1/update.zip
-  ROM_NAME: Flyme
+  ROM_URL:  https://download.h2os.com/OnePlus7/MP/OnePlus7Hydrogen_14.H.37_OTA_0370_all_2105181017_4d17f37335414c98.zip
+  ROM_NAME: Hydrogen
   TZ: Asia/Shanghai
 
 jobs:
