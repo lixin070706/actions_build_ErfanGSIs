@@ -14,7 +14,7 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://117-161-100-4.ksyungslb.com/bigota.d.miui.com/V12.5.5.0.RJBCNXM/miui_UMI_V12.5.5.0.RJBCNXM_8fa4752ff3_11.0.zip?ksy_gslb_referer=https%3A%2F%2Fwww.miui.com%2F
+  ROM_URL: https://117-161-100-7.ksyungslb.com/bigota.d.miui.com/V12.0.3.0.QFHCNXM/miui_VIOLET_V12.0.3.0.QFHCNXM_23b306b741_10.0.zip?ksy_gslb_referer=https%3A%2F%2Fwww.miui.com%2F
   ROM_NAME: MIUI
   TZ: Asia/Shanghai
 
