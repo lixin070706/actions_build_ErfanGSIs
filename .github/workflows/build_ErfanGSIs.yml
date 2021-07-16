@@ -14,8 +14,8 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://117-161-100-7.ksyungslb.com/bigota.d.miui.com/V12.0.3.0.QFHCNXM/miui_VIOLET_V12.0.3.0.QFHCNXM_23b306b741_10.0.zip?ksy_gslb_referer=https%3A%2F%2Fwww.miui.com%2F
-  ROM_NAME: MIUI
+  ROM_URL: https://q11cw39l.v1d.szbdyd.com:9305/download.meizu.com/Firmware/Flyme/16T/9.21.4.29/cn_daily/20210429003511/b1756971/update.zip
+  ROM_NAME: Flyme
   TZ: Asia/Shanghai
 
 jobs:
